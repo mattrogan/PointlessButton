@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <div class="title">
+        <h1>The Pointless Button</h1>
+        <h2>Click the pointless button?</h2>
+    </div>
+</head>
+
+<body>
+
+    <div class="counter">
+
+        <p id="youHaveClicked"></p>
+        <p id="count"></p>
+        <p id="times"></p>
+
+    </div>
+
+    <div class="gameplay">
+        <p>Click at your own risk...</p>
+        <br>
+        <button class="button" type="button" onclick="increment()">Click me?</button>
+    </div>
+    
+    <script src="{{url_for('static', filename='javascript/main.js')}}"></script>
+
+</body>
+
+<footer>
+    <div class="creator">
+    <p class="creator-text">Created by Matt Rogan, 2022</p>
+    <a href="https://github.com/mattrogan"><i class="fa fa-github" style="font-size:32px;color:white;text-align:center"></i></a>
+    </div>
+</footer>
+</html>
