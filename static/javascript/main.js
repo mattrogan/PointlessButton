@@ -14,7 +14,9 @@ function increment() {
         document.getElementById("secretMessage").innerHTML = "Haha nice";
     } else if (count == 420) {
         document.getElementById("secretMessage").innerHTML = "😎";
+        document.getElementById("secretMessage").setAttribute("font-size", "69");
     } else {
         document.getElementById("secretMessage").innerHTML = "";
+        document.getElementById("secretMessage").setAttribute("font-size", "24");
     }
 }
