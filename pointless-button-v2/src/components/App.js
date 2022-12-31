@@ -15,6 +15,8 @@ function App() {
     return (
         <div className="gameplay">
             <p className="counter">You have clicked {numClicks} times.</p>
+            <p>{(numClicks == 69) ? "Haha nice" : ""}</p>
+            <p>{(numClicks == 420) ? "😎" : ""}</p>
             <p>Click at your own risk...</p>
             <br />
             <button className="button" type="button" onClick={increment}>Click me?</button>
