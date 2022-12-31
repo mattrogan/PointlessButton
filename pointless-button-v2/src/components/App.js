@@ -17,7 +17,7 @@ function App() {
             <p className="counter">You have clicked {numClicks} times.</p>
             <p>Click at your own risk...</p>
             <br />
-            <button className="button" type="button" onclick={increment}>Click me?</button>
+            <button className="button" type="button" onClick={increment}>Click me?</button>
             <Footer />
         </div>
     )
